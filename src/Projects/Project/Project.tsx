@@ -5,11 +5,10 @@ export const Project = () => {
     return (
         <div className={s.projectContainer}>
             <div className={s.imageContainer}>
-                <img src="" alt=""/>
-                <a href="" className={s.link}>Посмотреть</a>
+                <a href="" className={s.link}>Смотреть</a>
             </div>
-            <div>Мои работы</div>
-            <span>Краткое описание</span>
+            <div className={s.work}>Мои работы</div>
+            <span className={s.description}>Краткое описание</span>
         </div>
     );
 };
