@@ -14,8 +14,8 @@ export const Footer = () => {
                     <Icon/>
                     <Icon/>
                 </div>
-                <div className={s.imgCopyright}>
-                    <img src="https://1000logos.net/wp-content/uploads/2021/07/Copyright-Symbol.png" alt="Copyright" className={s.img}/>
+                <div className={s.copyright}>
+                    <img src="https://1000logos.net/wp-content/uploads/2021/07/Copyright-Symbol.png" className={s.imgCopyright}/>
                     <h2>2022 Все права защищены</h2>
                 </div>
             </div>
