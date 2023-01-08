@@ -4,6 +4,7 @@ import stylesFooter from '../common/Styles/Container.module.css'
 import {Icon} from "./Icon/Icon";
 
 export const Footer = () => {
+
     return (
         <div className={s.footerBlock}>
             <div className={`${stylesFooter.container} ${s.footerContainer}`}>
@@ -16,7 +17,7 @@ export const Footer = () => {
                 </div>
                 <div className={s.copyright}>
                     <img src="https://1000logos.net/wp-content/uploads/2021/07/Copyright-Symbol.png" className={s.imgCopyright}/>
-                    <h2>2022 Все права защищены</h2>
+                    <h2>2023 Все права защищены</h2>
                 </div>
             </div>
 
